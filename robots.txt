@@ -1,0 +1,33 @@
+# robots.txt for Summerville Nursery
+# https://www.summervillenursery.com/
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.summervillenursery.com/sitemap.xml
+
+# Disallow access to development or private files (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.bak$
+
+# Crawl delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Facebook crawler
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter crawler
+User-agent: Twitterbot
+Allow: /
