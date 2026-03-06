@@ -23,6 +23,11 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/products.html">
 
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/products.html">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/products.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/products.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -31,21 +36,25 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Schema.org Markup -->
+    <!-- Schema.org — Product ItemList -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "Summerville Nursery Products",
-        "description": "Wide selection of plants and garden supplies",
+        "name": "Summerville Nursery — Plants & Garden Supplies",
+        "description": "Wide selection of quality plants and gardening supplies available for wholesale and retail at Summerville Nursery, Selangor, Malaysia.",
+        "url": "https://www.summervillenursery.com/products.html",
+        "numberOfItems": 6,
         "itemListElement": [
             {
                 "@type": "ListItem",
                 "position": 1,
                 "item": {
                     "@type": "Product",
-                    "name": "Indoor Plants",
-                    "description": "Beautiful houseplants for your home"
+                    "name": "Indoor Houseplants",
+                    "description": "Tropical foliage plants, ferns, succulents, air plants, and ornamental houseplants suitable for Malaysian homes and offices.",
+                    "category": "Houseplants",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
                 }
             },
             {
@@ -53,8 +62,10 @@
                 "position": 2,
                 "item": {
                     "@type": "Product",
-                    "name": "Outdoor Trees",
-                    "description": "Majestic trees for landscaping"
+                    "name": "Outdoor Trees & Shrubs",
+                    "description": "Shade trees, ornamental trees, fruit trees, hedging plants, and tropical shrubs for landscaping and gardens.",
+                    "category": "Trees",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
                 }
             },
             {
@@ -63,7 +74,42 @@
                 "item": {
                     "@type": "Product",
                     "name": "Flowering Plants",
-                    "description": "Colorful blooms for gardens"
+                    "description": "Colourful seasonal and perennial flowering plants for garden beds, borders, and decorative pots.",
+                    "category": "Flowering Plants",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Product",
+                    "name": "Potted Plants",
+                    "description": "Pre-potted plants in decorative containers, ready for immediate display in homes, offices, or events.",
+                    "category": "Potted Plants",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@type": "Product",
+                    "name": "Palms & Cycads",
+                    "description": "Ornamental palms and cycads widely used in Malaysian tropical landscaping projects.",
+                    "category": "Palms",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@type": "Product",
+                    "name": "Garden Supplies",
+                    "description": "Organic fertilizers, potting soil, compost, perlite, decorative pots, planters, and garden tools.",
+                    "category": "Garden Supplies",
+                    "offers": {"@type": "Offer", "priceCurrency": "MYR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "Summerville Nursery"}}
                 }
             }
         ]

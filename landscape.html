@@ -19,7 +19,12 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/landscape.html">
-    
+
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/landscape.html">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/landscape.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/landscape.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     
@@ -28,18 +33,46 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Schema.org Markup -->
+    <!-- Schema.org — Landscape Design Service -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Landscape Design Services",
+        "name": "Professional Landscape Design & Installation",
+        "serviceType": "Landscape Design, Garden Installation, Hardscaping",
+        "description": "Summerville Nursery provides professional landscape design and installation services for residential homes, commercial properties, condominiums, and offices across Selangor and the Klang Valley, Malaysia.",
+        "url": "https://www.summervillenursery.com/landscape.html",
         "provider": {
-            "@type": "LocalBusiness",
-            "name": "Summerville Nursery"
+            "@type": "GardenStore",
+            "name": "Summerville Nursery",
+            "url": "https://www.summervillenursery.com",
+            "telephone": "+60-12-295-8911",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Klang",
+                "addressRegion": "Selangor",
+                "addressCountry": "MY"
+            }
         },
-        "description": "Professional landscape design and installation services for residential and commercial properties.",
-        "areaServed": "Malaysia"
+        "areaServed": [
+            {"@type": "City", "name": "Klang"},
+            {"@type": "City", "name": "Shah Alam"},
+            {"@type": "City", "name": "Subang Jaya"},
+            {"@type": "City", "name": "Puchong"},
+            {"@type": "State", "name": "Selangor"},
+            {"@type": "AdministrativeArea", "name": "Klang Valley"}
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Landscaping Services",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garden Design & Planning"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Soil Preparation & Planting"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Hardscape Installation (Pathways, Edging, Retaining Walls)"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Irrigation System Installation"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garden Maintenance & Follow-up Care"}}
+            ]
+        }
     }
     </script>
     <!-- Vercel Analytics -->

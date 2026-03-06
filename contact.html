@@ -19,7 +19,12 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/contact.html">
-    
+
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/contact.html">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/contact.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/contact.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     
@@ -28,17 +33,53 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Schema.org Markup -->
+    <!-- Schema.org — ContactPage -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "ContactPage",
+        "url": "https://www.summervillenursery.com/contact.html",
+        "name": "Contact Summerville Nursery",
+        "description": "Contact Summerville Nursery for plants, wholesale enquiries, landscaping services, and general enquiries. Reach us via WhatsApp, phone, or visit either branch in Klang or Telok Panglima Garang, Selangor.",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.summervillenursery.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://www.summervillenursery.com/contact.html"}
+            ]
+        },
         "mainEntity": {
-            "@type": "LocalBusiness",
+            "@type": "GardenStore",
             "name": "Summerville Nursery",
             "telephone": "+60-12-295-8911",
+            "url": "https://www.summervillenursery.com",
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+60-12-295-8911",
+                    "contactType": "customer service",
+                    "availableLanguage": ["English", "Chinese", "Malay"],
+                    "contactOption": "TollFree",
+                    "hoursAvailable": {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                        "opens": "08:30",
+                        "closes": "18:30"
+                    }
+                },
+                {
+                    "@type": "ContactPoint",
+                    "url": "https://wa.me/60122958911",
+                    "contactType": "sales",
+                    "availableLanguage": ["English", "Chinese", "Malay"]
+                }
+            ],
             "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai",
+                "addressLocality": "Klang",
+                "addressRegion": "Selangor",
+                "postalCode": "41100",
                 "addressCountry": "MY"
             }
         }

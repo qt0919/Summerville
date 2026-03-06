@@ -19,7 +19,12 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/branches.html">
-    
+
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/branches.html">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/branches.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/branches.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     
@@ -28,60 +33,84 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Schema.org Markup for Multiple Locations -->
+    <!-- Schema.org — Two LocalBusiness Locations -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Summerville Nursery",
-        "url": "https://www.summervillenursery.com",
-        "location": [
-            {
-                "@type": "LocalBusiness",
-                "name": "Summerville Nursery - Main Branch",
-                "description": "Main branch of Summerville Nursery offering plants and landscaping services",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai",
-                    "addressLocality": "Klang",
-                    "addressRegion": "Selangor",
-                    "postalCode": "41100",
-                    "addressCountry": "MY"
-                },
-                "telephone": "+60-12-295-8911",
-                "openingHoursSpecification": [
-                    {
-                        "@type": "OpeningHoursSpecification",
-                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                        "opens": "08:30",
-                        "closes": "18:30"
-                    }
-                ]
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "GardenStore",
+            "@id": "https://www.summervillenursery.com/#main-branch",
+            "name": "Summerville Nursery — Main Branch",
+            "description": "Main branch of Summerville Nursery in Klang, Selangor. Offers a wide range of plants, garden supplies, and landscaping services. Open daily 8:30 AM – 6:30 PM.",
+            "url": "https://www.summervillenursery.com/branches.html",
+            "telephone": "+60-12-295-8911",
+            "image": "https://www.summervillenursery.com/image/landing/m1.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai",
+                "addressLocality": "Klang",
+                "addressRegion": "Selangor",
+                "postalCode": "41100",
+                "addressCountry": "MY"
             },
-            {
-                "@type": "LocalBusiness",
-                "name": "Summerville Nursery - Second Branch",
-                "description": "Bigger branch of Summerville Nursery with extended plant selection",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Lot 11859, Off Jln Garuda, Kampung Batu 9 Kebun Baru",
-                    "addressLocality": "Telok Panglima Garang",
-                    "addressRegion": "Selangor",
-                    "postalCode": "42500",
-                    "addressCountry": "MY"
-                },
-                "telephone": "+60-12-295-8911",
-                "openingHoursSpecification": [
-                    {
-                        "@type": "OpeningHoursSpecification",
-                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                        "opens": "08:30",
-                        "closes": "18:30"
-                    }
-                ]
-            }
-        ]
-    }
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "3.0333",
+                "longitude": "101.4500"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                    "opens": "08:30",
+                    "closes": "18:30"
+                }
+            ],
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "Summerville Nursery",
+                "url": "https://www.summervillenursery.com"
+            },
+            "sameAs": "https://www.facebook.com/p/Summerville-Nursery-and-Landscape-100057068217162/"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "GardenStore",
+            "@id": "https://www.summervillenursery.com/#tpg-branch",
+            "name": "Summerville Nursery — Second Branch (Telok Panglima Garang)",
+            "description": "Second and larger branch of Summerville Nursery located in Telok Panglima Garang (TPG), Selangor. Features an extensive plant selection. Open daily 8:30 AM – 6:30 PM.",
+            "url": "https://www.summervillenursery.com/branches.html",
+            "telephone": "+60-12-295-8911",
+            "image": "https://www.summervillenursery.com/image/landing/n6.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Lot 11859, Off Jalan Garuda, Kampung Batu 9 Kebun Baru",
+                "addressLocality": "Telok Panglima Garang",
+                "addressRegion": "Selangor",
+                "postalCode": "42500",
+                "addressCountry": "MY"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "2.9000",
+                "longitude": "101.5500"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                    "opens": "08:30",
+                    "closes": "18:30"
+                }
+            ],
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "Summerville Nursery",
+                "url": "https://www.summervillenursery.com"
+            },
+            "sameAs": "https://www.facebook.com/p/Summerville-Nursery-TPG-61557421225293/"
+        }
+    ]
     </script>
     <!-- Vercel Analytics -->
     <script defer src="/_vercel/insights/script.js"></script>

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initLightbox();
     initScrollAnimations();
     initContactForm();
+    initFAQAccordion();
 });
 
 /* =====================================================
@@ -604,3 +605,37 @@ function initBackToTop() {
 
 // Initialize back to top
 document.addEventListener('DOMContentLoaded', initBackToTop);
+
+/* =====================================================
+   FAQ ACCORDION
+   ===================================================== */
+function initFAQAccordion() {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const btn = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+
+        if (!btn || !answer) return;
+
+        btn.addEventListener('click', () => {
+            const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+            // Close all others
+            faqItems.forEach(other => {
+                const otherBtn = other.querySelector('.faq-question');
+                const otherAnswer = other.querySelector('.faq-answer');
+                if (otherBtn && otherAnswer) {
+                    otherBtn.setAttribute('aria-expanded', 'false');
+                    otherAnswer.classList.remove('open');
+                }
+            });
+
+            // Toggle current
+            if (!isOpen) {
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('open');
+            }
+        });
+    });
+}

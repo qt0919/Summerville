@@ -1,50 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- ── English Pages ─────────────────────────────────────── -->
+
     <!-- Homepage -->
     <url>
         <loc>https://www.summervillenursery.com/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/"/>
     </url>
-    
+
     <!-- About Us Page -->
     <url>
         <loc>https://www.summervillenursery.com/about.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/about.html"/>
     </url>
-    
+
     <!-- Our Branches Page -->
     <url>
         <loc>https://www.summervillenursery.com/branches.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/branches.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/branches.html"/>
     </url>
-    
+
     <!-- Products Page -->
     <url>
         <loc>https://www.summervillenursery.com/products.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/products.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/products.html"/>
     </url>
-    
+
     <!-- Landscape Portfolio Page -->
     <url>
         <loc>https://www.summervillenursery.com/landscape.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/landscape.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/landscape.html"/>
     </url>
-    
+
     <!-- Contact Page -->
     <url>
         <loc>https://www.summervillenursery.com/contact.html</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-03-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/contact.html"/>
     </url>
+
+    <!-- ── Chinese Pages ──────────────────────────────────────── -->
+
+    <!-- Chinese Homepage -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/"/>
+    </url>
+
+    <!-- Chinese About Us -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/about.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/about.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/about.html"/>
+    </url>
+
+    <!-- Chinese Branches -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/branches.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/branches.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/branches.html"/>
+    </url>
+
+    <!-- Chinese Products -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/products.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/products.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/products.html"/>
+    </url>
+
+    <!-- Chinese Landscape -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/landscape.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/landscape.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/landscape.html"/>
+    </url>
+
+    <!-- Chinese Contact -->
+    <url>
+        <loc>https://www.summervillenursery.com/cn/contact.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/contact.html"/>
+    </url>
+
 </urlset>

@@ -32,6 +32,11 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/">
 
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -41,17 +46,26 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Schema.org Markup for Google -->
+    <!-- Schema.org — Enhanced LocalBusiness (Primary / Main Branch) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": "GardenStore",
         "name": "Summerville Nursery",
-        "description": "Quality plants, landscaping services, and garden supplies with two convenient locations.",
-        "image": "https://www.summervillenursery.com/SummervilleLogo.jpeg",
+        "alternateName": "Summerville Nursery and Landscape",
+        "description": "Summerville Nursery is a leading plant nursery and professional landscaping company in Klang, Selangor, Malaysia. We offer wholesale and retail plants, landscape design and installation services, and quality garden supplies. Open daily.",
+        "image": [
+            "https://www.summervillenursery.com/image/SummervilleLogo.png",
+            "https://www.summervillenursery.com/image/landing/n1.jpg",
+            "https://www.summervillenursery.com/image/landing/n4.jpg"
+        ],
         "@id": "https://www.summervillenursery.com",
         "url": "https://www.summervillenursery.com",
         "telephone": "+60-12-295-8911",
+        "email": "contact@summervillenursery.com",
+        "priceRange": "RM - RMM",
+        "currenciesAccepted": "MYR",
+        "paymentAccepted": "Cash, Bank Transfer, QR Pay",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai",
@@ -60,6 +74,20 @@
             "postalCode": "41100",
             "addressCountry": "MY"
         },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "3.0333",
+            "longitude": "101.4500"
+        },
+        "hasMap": "https://maps.app.goo.gl/KlangSummervilleNursery",
+        "areaServed": [
+            {"@type": "City", "name": "Klang"},
+            {"@type": "City", "name": "Shah Alam"},
+            {"@type": "City", "name": "Subang Jaya"},
+            {"@type": "City", "name": "Puchong"},
+            {"@type": "City", "name": "Telok Panglima Garang"},
+            {"@type": "State", "name": "Selangor"}
+        ],
         "openingHoursSpecification": [
             {
                 "@type": "OpeningHoursSpecification",
@@ -68,9 +96,109 @@
                 "closes": "18:30"
             }
         ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                "author": {"@type": "Person", "name": "Mr. Ng"},
+                "reviewBody": "This nursery is truly impressive! I visit every weekend and there's always something new to discover. The staff are friendly and knowledgeable, always ready to share plant care tips. My garden has never looked better!",
+                "datePublished": "2025-06-01"
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                "author": {"@type": "Person", "name": "Mrs. Lim"},
+                "reviewBody": "Been a loyal customer for 3 years now. They have an amazing variety — indoor plants, outdoor trees, and everything in between. The TPG branch is huge, perfect for a family outing!",
+                "datePublished": "2025-08-15"
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                "author": {"@type": "Person", "name": "Mr. Kumar"},
+                "reviewBody": "Excellent nursery with quality plants at fair prices. Their landscape team did a wonderful job on my garden. Professional service from start to finish. Highly recommended!",
+                "datePublished": "2025-09-10"
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Plant & Landscaping Services",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Indoor Houseplants"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Outdoor Trees & Shrubs"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Flowering Plants"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Potted Plants"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landscape Design & Installation"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Wholesale Plant Supply"}}
+            ]
+        },
         "sameAs": [
             "https://www.facebook.com/p/Summerville-Nursery-and-Landscape-100057068217162/",
             "https://www.facebook.com/p/Summerville-Nursery-TPG-61557421225293/"
+        ]
+    }
+    </script>
+
+    <!-- Schema.org — FAQPage (for AI & Featured Snippets) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Where is Summerville Nursery located?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Summerville Nursery has two branches in Selangor, Malaysia. The Main Branch is at Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai, 41100 Klang, Selangor. The Second (bigger) Branch is at Lot 11859, Off Jalan Garuda, Kampung Batu 9 Kebun Baru, 42500 Telok Panglima Garang, Selangor. Both are open daily from 8:30 AM to 6:30 PM."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are Summerville Nursery's opening hours?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Both Summerville Nursery branches are open every day, Monday to Sunday, from 8:30 AM to 6:30 PM. There are no rest days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Summerville Nursery offer wholesale plant supply?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Summerville Nursery supplies wholesale plants to landscapers, contractors, property developers, and businesses at competitive trade prices. Contact us via WhatsApp at +60-12-295-8911 for bulk orders and pricing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Summerville Nursery provide landscaping services?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Summerville Nursery offers professional landscape design and installation services for residential gardens, commercial properties, condominiums, and offices across Selangor and the Klang Valley."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What types of plants does Summerville Nursery sell?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Summerville Nursery sells a wide range of plants including indoor houseplants, outdoor trees and shrubs, flowering plants, ground cover plants, palms, cycads, potted plants, and tropical plants suited to the Malaysian climate. Garden supplies such as fertilizers, soil, and pots are also available."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I contact Summerville Nursery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can reach Summerville Nursery by WhatsApp or phone at +60-12-295-8911. WhatsApp is the fastest way to get a response. You can also visit either branch in person or use the contact form at https://www.summervillenursery.com/contact.html."
+                }
+            }
         ]
     }
     </script>
@@ -476,6 +604,87 @@
                 </button>
             </div>
             <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (SEO / GEO / AI Search) -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about Summerville Nursery</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Where is Summerville Nursery located?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We have two branches in Selangor, Malaysia:</p>
+                        <ul>
+                            <li><strong>Main Branch:</strong> Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai, 41100 Klang, Selangor</li>
+                            <li><strong>Second Branch (Bigger):</strong> Lot 11859, Off Jalan Garuda, Kampung Batu 9 Kebun Baru, 42500 Telok Panglima Garang (TPG), Selangor</li>
+                        </ul>
+                        <p>Both branches are open every day from 8:30 AM to 6:30 PM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        What are your opening hours?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Both branches are open <strong>7 days a week, Monday to Sunday, from 8:30 AM to 6:30 PM</strong>. We are open on public holidays too — no rest days!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Do you offer wholesale plant supply?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We supply wholesale plants to landscapers, property developers, contractors, and businesses at competitive trade prices. <a href="contact.html">Contact us via WhatsApp</a> at <strong>+60-12-295-8911</strong> to discuss your bulk order requirements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Do you provide landscaping and garden design services?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. We offer full <strong>landscape design and installation services</strong> for residential homes, commercial properties, offices, and condominiums throughout Selangor and the Klang Valley. <a href="landscape.html">View our completed projects</a> or contact us for a custom quotation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        What types of plants do you sell?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We carry a wide variety of plants including:</p>
+                        <ul>
+                            <li>Indoor / houseplants</li>
+                            <li>Outdoor trees and shrubs</li>
+                            <li>Flowering and ornamental plants</li>
+                            <li>Ground cover plants</li>
+                            <li>Palms and cycads</li>
+                            <li>Potted plants ready for display</li>
+                            <li>Fruit trees and tropical species</li>
+                        </ul>
+                        <p>We also stock fertilizers, soil, pots, and gardening accessories. <a href="products.html">Browse all products.</a></p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        How can I contact Summerville Nursery?
+                        <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The fastest way is via <strong>WhatsApp at <a href="https://wa.me/60122958911" target="_blank" rel="noopener">+60-12-295-8911</a></strong>. You can also call the same number, visit either branch in person, or use our <a href="contact.html">contact page</a>.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

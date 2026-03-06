@@ -19,7 +19,12 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.summervillenursery.com/about.html">
-    
+
+    <!-- Hreflang — Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.summervillenursery.com/about.html">
+    <link rel="alternate" hreflang="zh" href="https://www.summervillenursery.com/cn/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.summervillenursery.com/about.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     
@@ -28,17 +33,43 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Schema.org Markup -->
+    <!-- Schema.org — AboutPage + LocalBusiness -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "AboutPage",
+        "url": "https://www.summervillenursery.com/about.html",
+        "name": "About Summerville Nursery — Our Story & History",
+        "description": "Summerville Nursery began with a passion for plants and has grown into a trusted nursery and landscaping company in Selangor, Malaysia, operating two branches serving the Klang Valley.",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.summervillenursery.com/"},
+                {"@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.summervillenursery.com/about.html"}
+            ]
+        },
         "mainEntity": {
-            "@type": "LocalBusiness",
+            "@type": "GardenStore",
             "name": "Summerville Nursery",
-            "description": "Quality plants, landscaping services, and garden supplies.",
-            "foundingDate": "YYYY",
-            "url": "https://www.summervillenursery.com"
+            "alternateName": "Summerville Nursery and Landscape",
+            "description": "Summerville Nursery is a leading plant nursery and professional landscaping company in Klang, Selangor, Malaysia. We provide wholesale and retail plants, landscape design and installation, and garden supplies.",
+            "url": "https://www.summervillenursery.com",
+            "telephone": "+60-12-295-8911",
+            "slogan": "Growing Dreams, Nurturing Nature",
+            "mission": "To provide our customers with the highest quality plants and landscaping solutions while promoting sustainable gardening practices.",
+            "areaServed": {"@type": "State", "name": "Selangor"},
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Pt. 34335, Jalan Teluk Pulai, Taman Teluk Pulai",
+                "addressLocality": "Klang",
+                "addressRegion": "Selangor",
+                "postalCode": "41100",
+                "addressCountry": "MY"
+            },
+            "sameAs": [
+                "https://www.facebook.com/p/Summerville-Nursery-and-Landscape-100057068217162/",
+                "https://www.facebook.com/p/Summerville-Nursery-TPG-61557421225293/"
+            ]
         }
     }
     </script>
