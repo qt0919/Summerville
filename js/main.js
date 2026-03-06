@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initScrollAnimations();
     initContactForm();
     initFAQAccordion();
+    initWhatsAppTracking();
 });
 
 /* =====================================================
@@ -605,6 +606,49 @@ function initBackToTop() {
 
 // Initialize back to top
 document.addEventListener('DOMContentLoaded', initBackToTop);
+
+/* =====================================================
+   WHATSAPP CLICK TRACKING (GA4 + Vercel Analytics)
+   ===================================================== */
+function initWhatsAppTracking() {
+    // Find every link on the page that goes to WhatsApp
+    const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+
+    whatsappLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            // Determine a human-readable label for where on the page the button lives
+            const label =
+                link.innerText.trim() ||
+                link.getAttribute('aria-label') ||
+                link.closest('section')?.querySelector('h2, h3')?.innerText?.trim() ||
+                'WhatsApp Button';
+
+            const pagePath  = window.location.pathname;
+            const pageTitle = document.title;
+
+            // ── Google Analytics 4 ──────────────────────────────
+            if (typeof gtag === 'function') {
+                gtag('event', 'whatsapp_click', {
+                    event_category : 'Contact',
+                    event_label     : label,
+                    page_path       : pagePath,
+                    page_title      : pageTitle
+                });
+            }
+
+            // ── Vercel Analytics ────────────────────────────────
+            if (typeof window.va === 'function') {
+                window.va('event', {
+                    name : 'WhatsApp Click',
+                    data : {
+                        label : label,
+                        page  : pagePath
+                    }
+                });
+            }
+        });
+    });
+}
 
 /* =====================================================
    FAQ ACCORDION
