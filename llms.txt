@@ -1,4 +1,4 @@
-# Summerville Nursery
+﻿# Summerville Nursery
 
 > Summerville Nursery is a trusted plant nursery and professional landscaping company based in Selangor, Malaysia. We specialize in wholesale and retail plant sales, professional landscape design and installation, and quality garden supplies. We serve homeowners, landscape contractors, and businesses throughout the Klang Valley.
 
@@ -8,7 +8,7 @@
 - **Industry:** Horticulture, Plant Nursery, Landscaping
 - **Founded:** Established as a family-run nursery in Selangor, Malaysia
 - **Languages:** English, Chinese (Mandarin / 中文)
-- **Website:** https://www.summervillenursery.com
+- **Website:** https://summervillenursery.vercel.app
 - **Phone:** +60-12-295-8911
 - **WhatsApp:** https://wa.me/60122958911
 - **Facebook:** https://www.facebook.com/p/Summerville-Nursery-and-Landscape-100057068217162/
@@ -70,23 +70,23 @@ A: Yes. We offer professional landscape design and installation services for res
 A: We sell indoor houseplants, outdoor trees, flowering plants, ground covers, palms, potted plants, and a wide range of tropical plants suited to Malaysian climates.
 
 **Q: How do I contact Summerville Nursery?**
-A: The fastest way is via WhatsApp at +60-12-295-8911. You can also visit either branch or reach us through our website contact page at https://www.summervillenursery.com/contact.html.
+A: The fastest way is via WhatsApp at +60-12-295-8911. You can also visit either branch or reach us through our website contact page at https://summervillenursery.vercel.app/contact.html.
 
 **Q: Is Summerville Nursery suitable for beginners?**
 A: Absolutely. Our friendly and experienced staff are always ready to offer plant care advice and recommendations for gardeners of all experience levels.
 
 **Q: Can I hire Summerville Nursery for a garden makeover?**
-A: Yes. Our landscaping team can handle everything from initial design consultation to full installation. Visit our landscape portfolio at https://www.summervillenursery.com/landscape.html or contact us for a quotation.
+A: Yes. Our landscaping team can handle everything from initial design consultation to full installation. Visit our landscape portfolio at https://summervillenursery.vercel.app/landscape.html or contact us for a quotation.
 
 ## Site Pages
 
-- [Home — About Summerville Nursery, services overview, testimonials](https://www.summervillenursery.com/)
-- [About Us — Our story, mission, vision, and values](https://www.summervillenursery.com/about.html)
-- [Our Branches — Addresses, maps, and details for both locations](https://www.summervillenursery.com/branches.html)
-- [Products — Full range of plants and garden supplies](https://www.summervillenursery.com/products.html)
-- [Landscape — Portfolio of completed landscape projects and service details](https://www.summervillenursery.com/landscape.html)
-- [Contact — WhatsApp, phone, and enquiry details](https://www.summervillenursery.com/contact.html)
+- [Home — About Summerville Nursery, services overview, testimonials](https://summervillenursery.vercel.app/)
+- [About Us — Our story, mission, vision, and values](https://summervillenursery.vercel.app/about.html)
+- [Our Branches — Addresses, maps, and details for both locations](https://summervillenursery.vercel.app/branches.html)
+- [Products — Full range of plants and garden supplies](https://summervillenursery.vercel.app/products.html)
+- [Landscape — Portfolio of completed landscape projects and service details](https://summervillenursery.vercel.app/landscape.html)
+- [Contact — WhatsApp, phone, and enquiry details](https://summervillenursery.vercel.app/contact.html)
 
 ## Chinese Version
 
-A full Chinese (Mandarin) version of the website is available at https://www.summervillenursery.com/cn/ for Chinese-speaking customers.
+A full Chinese (Mandarin) version of the website is available at https://summervillenursery.vercel.app/cn/ for Chinese-speaking customers.
